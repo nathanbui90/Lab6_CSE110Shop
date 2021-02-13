@@ -29,7 +29,6 @@ function productItem(item){
 
 function addTo(event){
   if(event.target.innerHTML == "Add to Cart"){
-    alert('Added to Cart!');
     event.target.innerHTML = "Remove from Cart";
     cartCount++;
     document.getElementById("cart-count").innerHTML = cartCount;
